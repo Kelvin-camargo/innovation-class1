@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,7 +23,9 @@
             <div class="homeMenu">
 
                 <div class="highMenu">
-                    <div class="logo"><img src="./assets/img/logoAvant.svg" alt="logo Avant"></div> 
+                    <div class="logo">
+                        <img src="./assets/img/logoAvant.svg" alt="logo Avant">
+                    </div> 
                 
                     <div class="search-container">
                         <input type="text" placeholder="Digite aqui o que você procura" class="search-box">
@@ -52,15 +54,76 @@
 
                     </div>
 
-                    </div>
-
                 </div>
 
 
                 <div class="downMenu">
-                    <div class="toggleMenu"></div>
 
-                    <nav class="menu"></nav>
+                    
+                    <div class="toggleMenu">
+                        <div class="menu-toggle">
+                            <label class="hamburger">
+                              
+                              <span></span>
+                              <span></span>
+                              <span></span>
+                            </label>
+                            <p>Todas as Categorias</p>
+                          </div>
+                          
+                        <div class="menuContent">
+                            <span>
+                                <div class="containerDepartmentsToggle">
+                                    <ul class="departmentsToggle"></ul>
+                                </div>
+                                
+                               
+                                <div class="categoryMenu">
+                                    <ul class="categoryToggle1"></ul>
+                                    <ul class="categoryToggle2"></ul>
+                                    <ul class="categoryToggle3"></ul>
+                                </div>
+                                
+                                <div class="products">
+                                    <img src="./assets/img/products.svg">
+                                </div>
+                                
+                            </span>
+                        </div>
+                    </div>
+
+
+                    
+
+
+                    <nav class="menuNav">
+                          
+                        <ul class="departmentsList"></ul>
+                    </nav>
+ 
+                    <div class="nav-menu">
+                        <div class="menuContentDepartment">
+                            
+                            <span>
+                                <div class="containerDepartments">
+
+                                    <div class="departmentTitle">Departamento</div>
+                                    
+                                    <div class="categoryMenu">
+                                        
+                                        <ul class="categoryToggle1"></ul>
+                                        <ul class="categoryToggle2"></ul>
+                                        <ul class="categoryToggle3"></ul>
+                                    </div>
+                            
+                                </div>
+                                
+                                <div class="products1">
+                                    <img src="./assets/img/products.svg" />
+                                </div>
+                            </span>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -80,5 +143,10 @@
     <newsletter></newsletter>
 
     <footer></footer>
+
+    <script src="script/header/departmentsList.js"></script>
+    <script src="script/header/departmentsToggle.js"></script>
+    <script src="script/header/categoryToggle.js"></script>
+    
 </body>
 </html>
