@@ -49,7 +49,7 @@
 
 }
 
-/*Menu*/
+/*Menu */
 .homeMenu{
     justify-content: center;
     align-items: center;
@@ -189,10 +189,11 @@
    gap: 45px;
 }
 
+
 .menu-toggle {
     display: flex;
     align-items: center;
-    
+   
     gap: 8px; 
     cursor: pointer;
   }
@@ -225,6 +226,7 @@
 
   .toggleMenu:hover .menuContent {
     display: block;
+   
   }
 
 
@@ -241,10 +243,9 @@
 
 
 .menuContent{
-  display: none;
+    display: none;
     position: absolute;
     margin-top: 16px;
-   
 
 }
 
@@ -256,13 +257,15 @@
 
 .menuContent span{
     
+ 
+
     position: fixed;
     display: flex;
-    
+    background-color: #FFFFFF;
     width: 1261px;
     height: 329px;
     flex-shrink: 0;
-    padding-top: 16px;
+    padding-top: 10px;
     padding-right: 24px;
     margin-left: auto;
     color: var(--second-color);
@@ -375,6 +378,7 @@
 
 .products{
   justify-content: flex-end;
+  padding-top: 20px;
 }
 
 
@@ -388,6 +392,7 @@
     font-weight: 400;
     line-height: 22px;
     color: var(--second-color);
+   
 }
 
 
@@ -395,11 +400,13 @@
 .departmentsList li{
     list-style-type: none;
     
+    
 }
 
 .departmentsList li:hover:first-child {
   cursor: pointer;
   font-weight: 700;
+  color: var(--first-color);
 }
 
 
@@ -416,14 +423,19 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  width: 1261px;
-  height: 329px;
-  
+  padding-right: 7px;
+  height: 339px;
+  margin-top: 6px;
+  margin-left: 10px;
+  background-color: #FFFFFF;
 }
 
 .menuContentDepartment span{
-  gap: 542px;
+  gap: 544px;
   display: flex;
+padding-top: 28px;
+margin-right: 14px;
+margin-left: 5px;
 
 }
 
@@ -433,9 +445,12 @@
   display: block;
 }
 
+.containerDepartments{
+  padding-bottom: 1px;
+}
 
 .departmentTitle{
-  padding-top: 19px;
+
   padding-left: 16px;
   
   font-weight: bold;
@@ -457,5 +472,5 @@
 }
 
 .products1{
-padding-top: 20px;
+margin-right: 2px;
 }
