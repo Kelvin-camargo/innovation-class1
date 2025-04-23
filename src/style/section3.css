@@ -1,0 +1,70 @@
+@import url("variables.css");
+
+
+
+.section3{
+    height: 890px;
+
+}
+
+.loremIpsum {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 80px;
+    margin-left: 372px;
+    margin-right: 372px;
+    margin-bottom: 55px;
+    gap: 37.5px;
+}
+
+.product-image {
+    width: 652px;
+    height: 747px;
+    background-color:  #C2C2C2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.product-info {
+    font-family: var(--font-family2);
+    width: 50%;
+ 
+    
+}
+
+.product-title {
+    font-weight: bold;
+    color: var(--second-color);
+    font-family: Nunito;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 140%;
+    letter-spacing: 4%;
+    text-transform: uppercase;
+    padding-bottom: 22px;
+}
+
+.product-description1 {
+    font-family: var(--font-family2);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 5%;
+    color: var(--second-color);
+    margin-bottom: 22px;
+    
+
+}
+
+.product-description1 {
+    font-family: var(--font-family2);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 5%;
+    
+    color: var(--second-color);
+}
