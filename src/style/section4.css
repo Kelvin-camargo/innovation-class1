@@ -1,1 +1,62 @@
 @import url("variables.css");
+
+.loremContent{
+display: flex;
+height: 819px;
+background-color: #DEDEDE;
+padding: 41px 374px 48px;
+align-items: center;
+font-family: var(--font-family2);
+color: #4F4F4F;
+}
+
+
+
+.titleLorem h2{
+    
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 140%;
+    letter-spacing: 4%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+
+.leremText{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+    margin-right: 70px;
+    align-items: center;
+}
+
+
+.leremEllipse{
+    display: flex;
+    width: 90px;
+    height: 90px;
+    top: 102px;
+    left: 3px;
+    border-radius: 50%;
+    background-color: var(--first-color);
+    align-items: center;
+    justify-content: center;
+}
+
+.secundPoculum{
+width: 652px;
+height: 728.13818359375px;
+}
+
+
+
+.leremText p{
+   
+    
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 5%;
+}
+
