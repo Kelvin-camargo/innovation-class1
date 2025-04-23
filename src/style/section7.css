@@ -1,0 +1,37 @@
+@import url("variables.css");
+
+
+.backgroudImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/img/storeAvant.svg);
+    background-repeat: no-repeat; 
+    margin-top: 61px;
+    margin-bottom: 61px;
+    width: 1920PX;
+    height: 660PX;
+    top: 4348px;
+    
+
+}
+
+.tapeText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 132px;
+    width: 100%;
+    background-color: var(--first-color);
+}
+
+.tapeText p{
+    font-family: var(--font-family1);
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffffff;
+}
