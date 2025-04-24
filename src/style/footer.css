@@ -1,0 +1,32 @@
+@import url("variables.css");
+
+.contentFotter{
+
+margin: 40px 423px;
+
+}
+
+
+.textFotter p{
+    font-family: var(--font-family1);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--third-color);
+    margin-bottom: 40px;
+}
+.customers{
+display: flex;
+gap: 24px;
+align-items: center;
+justify-content: center;
+}
+
+
+
+.verticalBar{
+
+    color: #F5F5F5;
+}
