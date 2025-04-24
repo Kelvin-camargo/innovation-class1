@@ -84,9 +84,31 @@
   height: 40px;
   margin-left: 65.42px;
   margin-right: 275px;
-
+}
+.search-container span[hidden] {
+  display: none;        
+}
+.search-container span{
+  position: absolute;
+  margin-top: 65px;
+  border: 1px solid #DDDDDD;
+  border-radius: 6px;
+  
+  padding-left: 27px;
+  padding-right: 27px;
+  background: #fff;
 
 }
+.search-result {
+  display: block;
+  margin-top: .75rem;
+  font-weight: 500;
+  color: var(--second-color);
+  font-family: var(--font-family1);
+  
+}
+
+
 
 .search-box {
   font-family: var(--font-family1);
